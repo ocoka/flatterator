@@ -1,0 +1,30 @@
+{
+  "name": "flatterator",
+  "version": "1.0.0",
+  "description": "make an iterator linearly passing through the elements of the array and inside the indicated by the parameter of their nested structures",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "tsc && jasmine",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ocoka/flatterator"
+  },
+  "keywords": [
+    "utility",
+    "array",
+    "small",
+    "iterator",
+    "nested",
+    "structure",
+    "library"
+  ],
+  "author": "Ivan Sysoev",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "typescript": "^3.7.4"
+  }
+}

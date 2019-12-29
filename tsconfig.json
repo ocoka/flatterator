@@ -1,0 +1,14 @@
+{
+  "exclude": ["node_modules", "types", "dist"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "declarationDir": "types",
+    "esModuleInterop": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "declaration": true,
+    "module": "commonjs",
+    "pretty": true,
+    "target": "ES2015"
+  }
+}
